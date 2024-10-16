@@ -1,0 +1,105 @@
+{
+    "config": {
+        "port": 3000,
+        "os": "win32",
+        "editor": {
+            "mode": "extension",
+            "agent": "vscode",
+            "version": "4.3.1"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "http://localhost:3000",
+        "contact": "https://github.com/learnpack/learnpack/issues/new",
+        "language": "auto",
+        "autoPlay": true,
+        "projectType": "tutorial",
+        "grading": "isolated",
+        "exercisesPath": "./",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "disabledActions": [],
+        "actions": [],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "suggestions": {
+            "agent": "vscode"
+        },
+        "warnings": {
+            "agent": null
+        },
+        "title": {
+            "us": "Ransomware Incident Response Plan based on NIST",
+            "es": "Plan de Respuesta a Incidente de Ransomware basado en NIST"
+        },
+        "description": {
+            "us": "This project aims to guide students in developing a ransomware incident response plan using the NIST cybersecurity framework. The exercise focuses on a case study of a fictitious company named TechCo, exploring the areas of identification, protection, detection, response, and recovery in the event of a ransomware attack.",
+            "es": "Este proyecto tiene como objetivo guiar a los estudiantes en el desarrollo de un plan de respuesta a incidentes de ransomware utilizando el marco de ciberseguridad NIST. El ejercicio se centra en un caso de estudio de una empresa ficticia llamada TechCo, explorando las áreas de identificación, protección, detección, respuesta y recuperación frente a un ataque de ransomware."
+        },
+        "duration": 3,
+        "difficulty": "beginner",
+        "technologies": [
+            "cybersecurity",
+            "incident response",
+            "NIST",
+            "ransomware",
+            "case study"
+        ],
+        "repository": "https://github.com/breatheco-de/ransomware-incident-response-plan",
+        "preview": "https://raw.githubusercontent.com/breatheco-de/ransomware-incident-response-plan/main/assets/preview-image.png",
+        "deliverable": true,
+        "translations": []
+    },
+    "address": "http://localhost:3000",
+    "currentExercise": "default-index",
+    "exercises": [
+        {
+            "position": 0,
+            "path": "./",
+            "slug": "default-index",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": null,
+            "title": "default-index",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".//.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": ".//learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                },
+                {
+                    "path": ".//README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".//README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        }
+    ],
+    "bugsLink": null,
+    "videoSolutions": false,
+    "localhostOnly": false,
+    "session": 2168661488927297000
+}
