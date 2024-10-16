@@ -33,9 +33,9 @@ The fictional company **TechCo**, dedicated to providing cloud services and mana
 - **Impact of the Attack**: Files were encrypted, and the company received a message demanding payment of 50 Bitcoins (equivalent to over $1,000,000) for the decryption key. The attackers threatened to permanently delete all files if the ransom was not paid within 72 hours.
 
 - **Additional Issues**:
-  1. The network lacked proper segmentation, allowing the ransomware to affect both production systems and backups.
-  2. There was no early alert protocol or real-time monitoring systems, so the ransomware's spread was not detected until employees began to notice a lack of access to files.
-  3. Efforts to restore systems from backups failed, as these were also encrypted by the ransomware.
+  - The network lacked proper segmentation, allowing the ransomware to affect both production systems and backups.
+  - There was no early alert protocol or real-time monitoring systems, so the ransomware's spread was not detected until employees began to notice a lack of access to files.
+  - Efforts to restore systems from backups failed, as these were also encrypted by the ransomware.
 
 ### Company Request:
 The management of TechCo seeks to develop a formal response plan to prevent similar incidents from occurring in the future and to mitigate the impact of future attacks.
